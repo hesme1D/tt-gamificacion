@@ -1,0 +1,84 @@
+*{
+	transition: all 0.6s;
+}
+
+.estilos{
+	background-color: #fffe91;
+	width: 50vw;
+	height: 40vw;
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1px;
+}
+
+.encabezado{
+	background-color: white;
+	min-width: 400px;
+	width: 75%;
+	text-align: center;
+}
+
+.encabezado h3{
+	font-family: fantasy;
+	font-size: x-large;
+	color: #D4AF37;
+}
+
+.btnR{
+	background-color: white;
+	width: 60%;
+	padding: 10px;
+	margin: 5px;
+}
+.btnR h6{
+	font-family: sans-serif;
+	font-size: medium;
+	color: #7d7d7d;
+  	font-weight: bold;
+}
+.btnR:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.text-edit{
+	font-family: monospace;
+	font-size: x-large;
+	color: black;
+}
+
+.podium{
+	background-color: #b1cc60;
+	width:	70vw;
+	height: 5vw;	
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	border-radius: 10px;
+	margin: 2px;
+	text-transform: uppercase;
+}
+
+.casilla2{
+	background-color: #b2ea04;
+	width: 20vw;
+	height: 10vw;
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1px;
+	margin: 3px;
+}
+
+#tablaPodium{
+  width: 54vw;
+  height: 4vw;    
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
