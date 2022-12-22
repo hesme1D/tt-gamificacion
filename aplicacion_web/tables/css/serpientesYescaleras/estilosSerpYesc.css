@@ -1,0 +1,63 @@
+#ficha{
+  position: center;
+  align-content: center;
+  width: 40px;
+  height: 40px;
+
+}
+.encabezado h3{
+  font-family: fantasy;
+  font-size: x-large;
+  color: #804000;
+}
+
+.btn_dado{
+    width: 80px;
+    height: 80px;
+    background: #F58B62;
+    border-color: #F58B62;
+    font-family: fantasy;
+    font-size: x-large;
+    color: black;
+    border-radius: 5px;
+}
+
+.text-edit{
+  font-family: monospace;
+  font-size: x-large;
+  color: black;
+}
+
+.btnR{
+  background-color: white;
+  width: 95%;
+  padding: 5px;
+  margin: 5px;
+  border-color: transparent;
+  text-align: left;
+  border-radius: 10px;
+  border-color: #e05c28;
+}
+.btnR h6{
+  font-family: sans-serif;
+  font-size: medium;
+  color: #804000;
+  font-weight: bold;
+}
+.btnR:hover{
+
+  cursor: pointer;
+
+  transform: scale(1.05);
+}
+
+
+#tablaPodium{
+  width: 54vw;
+  height: 4vw;    
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
